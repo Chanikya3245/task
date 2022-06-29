@@ -1,0 +1,101 @@
+mat-toolbar{
+    background: rgb(0, 0, 10);
+    color: white;
+}
+mat-sidenav{
+    background: rgb(0, 0, 10);
+    margin: 5px;
+    width: 200px;
+    border-right: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+.content{
+    height: calc(100vh - 98px);
+    margin: 16px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 2rem;
+    color: rgb(14, 1, 1);
+
+    border-radius: 10px;
+}
+mat-sidenav-container{
+    height: calc(100vh - 65px);
+
+}
+.menu-button{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+
+    mat-icon{
+        margin-right: 8px;
+    }
+}
+
+.avatar{
+    border-radius: 10px;
+}
+.name{
+    margin: 0;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.designation{
+    margin-top: 2px;
+    font-weight: 0.7rem;
+    color: lightgrey;
+}
+mat-divider{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color:antiquewhite;
+}
+input{
+    margin: 0px -40px 0px 460px ;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgba(193, 193, 193, 193);
+    // margin: -35px;
+
+}
+.input{
+    border-radius: 10px;
+    padding: 7px;
+    margin-right: 10px;
+}
+// .mat-h4{
+//     margin: 13px 0px 10px 20px;
+// }
+.btn-outline-primary{
+    margin-left: 20px;
+    background-color: black;
+    text-decoration-color: antiquewhite;
+    
+}
+.mat-typography h4{
+    margin: 13px 0px 10px 20px;
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+.btn{
+    font-size: 18px;
+
+}
+h2 {
+    margin-left: 10px;
+    border: 2px solid grey;
+}
